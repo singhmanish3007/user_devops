@@ -1,0 +1,4 @@
+server:
+  servlet:
+    context-path: /userdevops/api
+  port: 9090  
