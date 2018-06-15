@@ -27,7 +27,7 @@ volumes: [
     stage('Check running containers') {
     
     echo 'Branch is '
-    echo ${gitBranch}
+    echo gitBranch
     
     if (gitBranch == 'master') {
             echo 'I only execute on the master branch'
